@@ -65,5 +65,21 @@
 git init
 MINGW64 ~/Desktop/Hola (master)
 ```
-
-_FIN_
+```javascript
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git reset index.html
+Unstaged changes after reset:
+M       index.html
+Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+no changes added to commit (use "git add" and/or "git commit -a")
+}
+```
+_END_
