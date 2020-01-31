@@ -62,11 +62,10 @@
 #### the main difference between both architectures is the data processing flows involved, another of its differences is that one processes the data with batch which refers to a process in which a set of data intervenes and that has a start and a end in time and in turn processes them with streaming which is continuously receiving and trying new information as they arrive without having an end in relation to the temporary section, on the contrary the other only processes the data with streaming.
 ---
 ## GitHub Commands
-
-```javascript
 #### git init: Initialize the repository.
+```javascript
 Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
-$ git mv Pagina1.html index.html
+$ git mv pagina.html index.html
 Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
 $ git status
 On branch master
@@ -74,8 +73,155 @@ Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
-        deleted:    bigdata.txt
-        renamed:    Pagina1.html -> index.html
+        deleted:    Bigdata.txt
+        renamed:    pagina.html -> index.html
+
+```
+#### git status: Shows files created, modified from the repository.
+```javascript
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ nano Bigdata.txt
+
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Bigdata.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+```
+#### git add: Add the file to the staging area.
+```javascript
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git add Bigdata.txt
+warning: LF will be replaced by CRLF in bigdata.txt.
+The file will have its original line endings in your working directory
+
+```
+#### git commit - m: Record the changes and add them to the repository.
+```javascript
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git commit
+[master b77348c] First project
+ 1 file changed, 2 insertions(+)
+ create mode 100644 Bigdata.txt
+
+```
+
+#### git log: Show the commits we have made in our repository.
+```javascript
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git log
+commit b77348c433f7a5fae9e5cdd591e22870544f4549 (HEAD -> master)
+Author: Santiago Molina <santy5555562@gmail.com>
+Date:   Thu Jan 30 21:39:05 2020 -0600
+
+    First project
+
+
+```
+
+#### git rm: Remove files from the staging area.
+```javascript
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git rm Bigdata.txt
+rm 'Bigdata.txt'
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    Bigdata.txt
+
+
+```
+
+* #### git mv: It allows us to rename a file.
+```javascript
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git mv pagina.html index.html
+
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    Bigdata.txt
+        renamed:    pagina.html -> index.html
+
+```
+
+#### git diff: Shows the changes that have been made within the files.
+```javascript
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git diff
+diff --git a/index.html b/index.html
+index deeaa16..79bc175 100644
+--- a/index.html
++++ b/index.html
+@@ -4,7 +4,7 @@
+
+     Bienvenidos a la UTM
+ Hola mundo
+-
++First project
+ </body>
+
+ </html>
+
+
+```
+
+* #### git --amend: We can modify the most recent confirmation and even combine changes.
+```javascript
+
+
+```
+
+* #### git reset: Remove commits.
+```javascript
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git reset index.html
+Unstaged changes after reset:
+M       index.html
+
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+```
+* #### git checkout: Reverse the changes of the files, allow travel to different commits.
+```javascript
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git checkout
+M       index.html
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git checkout index.html
+Updated 1 path from the index
+
 }
 ```
 _END_
