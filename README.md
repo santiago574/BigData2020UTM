@@ -61,8 +61,9 @@
 ### Arquitechture Lambda & Kappa.
 #### the main difference between both architectures is the data processing flows involved, another of its differences is that one processes the data with batch which refers to a process in which a set of data intervenes and that has a start and a end in time and in turn processes them with streaming which is continuously receiving and trying new information as they arrive without having an end in relation to the temporary section, on the contrary the other only processes the data with streaming.
 ---
-``` javasript
+```javasript
 git init
+MINGW64 ~/Desktop/Hola (master)
 ```
 
 _FIN_
