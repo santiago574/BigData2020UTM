@@ -30,4 +30,11 @@
 ---
 ### Explain the impact of data analysis in organizations.
 
+#### Data analysis impacts organizations in such a way that without doing such an action it would be very difficult to organize the data and turn it into useful information for the organization and consequently it would make decision making difficult.
+---
+### Explain the different types of data analysis.
+
+#### Descriptive Analysis:
+##### The first type of data analysis is descriptive analysis. It is at the base of all data information. It is the simplest and most common use of data in today's business. The descriptive analysis responds to "what happened" by summarizing the data passed generally in the form of panels.
+
 _FIN_
