@@ -61,25 +61,21 @@
 ### Arquitechture Lambda & Kappa.
 #### the main difference between both architectures is the data processing flows involved, another of its differences is that one processes the data with batch which refers to a process in which a set of data intervenes and that has a start and a end in time and in turn processes them with streaming which is continuously receiving and trying new information as they arrive without having an end in relation to the temporary section, on the contrary the other only processes the data with streaming.
 ---
-```javasript
-git init
-MINGW64 ~/Desktop/Hola (master)
-```
+## GitHub Commands
+
 ```javascript
-Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
-$ git reset index.html
-Unstaged changes after reset:
-M       index.html
-Usuario@Jesus MINGW64 ~/Desktop/Hola (master)
+#### git init: Initialize the repository.
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git mv Pagina1.html index.html
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
 $ git status
 On branch master
-Your branch is ahead of 'origin/master' by 2 commits.
+Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   index.html
-no changes added to commit (use "git add" and/or "git commit -a")
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    bigdata.txt
+        renamed:    Pagina1.html -> index.html
 }
 ```
 _END_
