@@ -143,7 +143,7 @@ Changes to be committed:
 
 ```
 
-* #### git mv: It allows us to rename a file.
+#### git mv: It allows us to rename a file.
 ```javascript
 Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
 $ git mv pagina.html index.html
@@ -181,14 +181,18 @@ index deeaa16..79bc175 100644
 
 
 ```
-
-* #### git --amend: We can modify the most recent confirmation and even combine changes.
+#### git --amend: We can modify the most recent confirmation and even combine changes.
 ```javascript
-
+Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
+$ git commit --amend
+[master 2bbd870] HolaMundo
+ Date: Thu Jan 30 21:39:05 2020 -0600
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
 
 ```
 
-* #### git reset: Remove commits.
+#### git reset: Remove commits.
 ```javascript
 Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
 $ git reset index.html
@@ -210,7 +214,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 
 ```
-* #### git checkout: Reverse the changes of the files, allow travel to different commits.
+#### git checkout: Reverse the changes of the files, allow travel to different commits.
 ```javascript
 Usuario@Santiago MINGW64 ~/Desktop/Proyecto (master)
 $ git checkout
