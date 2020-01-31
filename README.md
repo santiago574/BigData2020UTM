@@ -43,8 +43,26 @@
 ##### This type of analysis is another step forward in descriptive and diagnostic analyzes. Predictive analysis uses the data we have summarized to make logical predictions of event results. This analysis is based on statistical models, which require additional technology and labor to forecast. It is also important to understand that the forecast is only an estimate; The accuracy of the predictions depends on the quality and detailed data.
 
 #### Prescriptive Analysis:
-##### The last type of data analysis is the most sought after, but few organizations are really equipped to do it. The prescriptive analysis is the frontier of the data analysis, combining the knowledge of all the previous analyzes to determine the course of action to be taken in a current problem or decision.
-
-
+##### The last type of data analysis is the most sought after, but few organizations are really equipped to do it. The prescriptive analysis is the frontier of the data analysis, combining the knowledge of all the previous analyzes to determine the course of action to be taken in a current problem or decision. Prescriptive analysis uses cutting-edge technology and data practices. It is a great organizational commitment and companies must be sure that they are ready and willing to contribute effort and resources.
+---
+### Hadoop:
+#### It is an open source software structure for storing data and running applications in commercial hardware clusters, it provides massive storage for any type of data, huge processing power and the ability to process virtually concurrent tasks or jobs. unlimited
+---
+### MapReduce
+#### It is a framework that provides a parallel and distributed data processing system and is composed of 2 "Map and Reduce" processes where:
+##### Map extracts and assigns values to certain keys for a single document and Reduces accumulates and combines the keys of multiple documents to create a unique reduced value for each key from the multiple values generated.
+---
+### Docker containers.
+#### These are lightweight and portable containers for software applications and these can be run on any machine that has Docker installed, regardless of the operating system that the machine has below.
+---
+### Apache Spark.
+#### It is a programming framework for distributed data processing designed to be fast and general purpose, this can be considered as an evolution of Apache Hadoop, which does not take full advantage of distributed processing capabilities, without having to write to disk and instead use RAM.
+---
+### Arquitechture Lambda & Kappa.
+#### the main difference between both architectures is the data processing flows involved, another of its differences is that one processes the data with batch which refers to a process in which a set of data intervenes and that has a start and a end in time and in turn processes them with streaming which is continuously receiving and trying new information as they arrive without having an end in relation to the temporary section, on the contrary the other only processes the data with streaming.
+---
+```git
+git init
+```
 
 _FIN_
