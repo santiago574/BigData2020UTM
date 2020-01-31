@@ -1,6 +1,4 @@
-# BigData2020UTM
----
-## Big data class
+# BigData2020UTM ## Big data class
 ---
 ### Explain the impact of data today.
 
