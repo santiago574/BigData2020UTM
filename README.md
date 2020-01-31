@@ -25,7 +25,6 @@
 #### The stored data are those that are structured and that are used for their analysis and the generation of information. On the other hand, data in motion is data which is being transmitted in a network. The biggest threat to this type of data is the interceptions and alterations that they may suffer.
 ---
 ### Define the meaning of data analysis.
-
 #### Data analysis is a process of inspection, cleaning, transformation and modeling of data with the aim of discovering useful information, informing the conclusion and supporting decision making.
 ---
 ### Explain the impact of data analysis in organizations.
@@ -34,6 +33,18 @@
 ---
 ### Explain the different types of data analysis.
 
-#### Descriptive Analysis:                                                                                                    ##### The first type of data analysis is descriptive analysis. It is at the base of all data information. It is the simplest and most common use of data in today's business. The descriptive analysis responds to "what happened" by summarizing the data passed generally in the form of panels.
+#### Descriptive Analysis:
+##### The first type of data analysis is descriptive analysis. It is at the base of all data information. It is the simplest and most common use of data in today's business. The descriptive analysis responds to "what happened" by summarizing the data passed generally in the form of panels.
+
+#### Diagnostic analysis:
+##### The diagnostic analysis takes the information found in the descriptive analysis and deepens to find the cause of that result. Organizations make use of this type of analysis, as it creates more connections between the data and identifies patterns of behavior.
+
+#### Predictive Analysis:
+##### This type of analysis is another step forward in descriptive and diagnostic analyzes. Predictive analysis uses the data we have summarized to make logical predictions of event results. This analysis is based on statistical models, which require additional technology and labor to forecast. It is also important to understand that the forecast is only an estimate; The accuracy of the predictions depends on the quality and detailed data.
+
+#### Prescriptive Analysis:
+##### The last type of data analysis is the most sought after, but few organizations are really equipped to do it. The prescriptive analysis is the frontier of the data analysis, combining the knowledge of all the previous analyzes to determine the course of action to be taken in a current problem or decision.
+
+
 
 _FIN_
